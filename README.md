@@ -7,5 +7,5 @@ We see here:
 * Pytorch
 * ...
   
-If you have any suggestion twit me @ramgendeploy
-Check out the videos in [Youtube](https://www.youtube.com/channel/UCJUIogvrTyXFXvi3SegniuA)
+If you have any suggestion twit me @ramgendeploy \
+> Check out the videos in [Youtube](https://www.youtube.com/channel/UCJUIogvrTyXFXvi3SegniuA)
