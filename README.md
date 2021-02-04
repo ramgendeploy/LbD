@@ -5,7 +5,8 @@ We see here:
 * Web
 * React
 * Pytorch
+* Flutter/Dart
 * ...
   
-If you have any suggestion twit me @ramgendeploy \
+If you have any suggestion twit me @ramgendeploy 
 > Check out the videos in [Youtube](https://www.youtube.com/channel/UCJUIogvrTyXFXvi3SegniuA)
