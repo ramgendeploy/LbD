@@ -14,21 +14,22 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(),
+      home: SettingsPage(),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+class SettingsPage extends StatefulWidget {
+  SettingsPage({Key key, this.title}) : super(key: key);
 
   final String title;
 
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _SettingsPageState createState() => _SettingsPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _SettingsPageState extends State<SettingsPage> {
+  // change this variable name
   Map<String, dynamic> settingsPage = <String, dynamic>{
     'name': 'Ramiro',
     'weight': 80,
