@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+* {
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  background: #151515;
+}
+
+.app {
+  background: #202020;
+  width: 80%;
+  margin: 0 auto;
+  height: fit-content;
+  color: white;
+  padding: 15px;
+  line-height: 30px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+  /* display: grid; */
+}
+
+.menu {
+  margin: 0;
+  color: black;
+  border: solid black 1px;
+  /* grid-auto-rows: 30px;
+  grid-template-columns: 100%; */
+  position: absolute;
+  width: 250px;
+  background: white;
+  padding: 10px 0px;
+  border-radius: 4px;
+}
+
+.Separator {
+  display: block;
+  height: 1px;
+  background: #7e7b7b;
+  margin: 5px 10px;
+  user-select: none;
+}
+
+.menuItem {
+  display: grid;
+  grid-template-columns: 30px auto;
+  align-items: center;
+  padding: 7px 15px 7px 8px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  background: lightblue;
+  transition: 500ms;
+}
+
+.menuItem:active {
+  background: cadetblue;
+  transition: 500ms;
+}
+
+.imgL {
+  float: left;
+  padding: 10px;
+}
+
+.imgR {
+  float: right;
+  padding: 10px;
+}
+
+.slime {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: #202020;
+  padding: 10px;
+  border-bottom: 3px solid #303030;
+}
